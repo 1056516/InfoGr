@@ -1,0 +1,18 @@
+{
+  "name": "mailgun-app",
+  "description": "",
+  "version": "0.1.0",
+  "require": {
+    "mailgun/mailgun-php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "./"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "7.0.x-dev"
+    }
+  }
+}
